@@ -1,13 +1,13 @@
 /* // Example */
 /* // Apply styles starting from medium devices and up to extra large devices */
-@media only screen and (min-width: 768px) and (max-width: 1199.98px) { 
+@media only screen and (min-width: 800px) and (max-width: 1199.98px) { 
  section{
    width: 98%;
  }
 
  }
 
- @media only screen and (min-width: 576px) and (max-width: 767px) { 
+ @media only screen and (min-width: 576px) and (max-width: 799px) { 
    section{
      width: 98%;
    }
@@ -29,11 +29,15 @@
     }
    }
 
-   @media only screen and (max-width: 575px){
+   @media only screen and (min-width: 50px) and (max-width: 575px){
       section{
-         width: 98%;
+         width: 100%;
          height: auto;
        }
+       .banner{
+         width: 18%;
+         
+      }
 
        /* Banner Responsive */
        .banner h1 {
