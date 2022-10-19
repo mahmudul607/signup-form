@@ -1,0 +1,96 @@
+/* // Example */
+/* // Apply styles starting from medium devices and up to extra large devices */
+@media only screen and (min-width: 768px) and (max-width: 1199.98px) { 
+ section{
+   width: 98%;
+ }
+
+ }
+
+ @media only screen and (min-width: 576px) and (max-width: 767px) { 
+   section{
+     width: 98%;
+   }
+   .green-bg button {
+     
+      left: 24%;
+      
+    }
+    .container.change .signup-form{
+      left: 13rem;
+   }
+   .signup-form h1{
+      font-size:2.5rem;
+      text-align: center;
+      
+   }
+   .signup-form p {
+      right: -3rem;
+    }
+   }
+
+   @media only screen and (max-width: 575px){
+      section{
+         width: 98%;
+         height: auto;
+       }
+
+       /* Banner Responsive */
+       .banner h1 {
+         font-size: 2rem;
+         margin-bottom: 1rem;
+       }
+       .banner p {
+         font-size: 1rem;
+       }
+       .green-bg button {
+         top: 60%;
+         left: 14%;
+         width: 10rem;
+         height: 3rem;
+       }
+       .form-wrapper{
+         width: 100%;
+         height: 50%;
+         border-radius: 2rem;
+      }
+
+      .container.change .banner{
+         left: 2rem;
+      }
+/* End Banner Responsive */
+
+/* Sign Up Form responsive */
+.container.change .signup-form{
+   left: 8rem;
+}
+.signup-form h1{
+   font-size:2rem;
+   right: -1rem;
+}
+.social-media i{
+  
+   margin-right: 1rem;
+   }
+.signup-form p {
+   right: -4rem;
+   width: 20rem;
+   
+   font-size: 1.2rem;
+
+ }
+ .input-group input{
+   
+   width: 18rem;
+   margin: 0.2rem;
+   border-radius: 0.5rem;
+}
+
+.signup-form button{
+   width: 9rem;
+   height: 4rem;
+   padding: 1rem;
+} 
+
+
+   }
